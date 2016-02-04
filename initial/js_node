@@ -1,0 +1,15 @@
+"use strict";
+
+function myMax(a, b) {
+    return a;
+}
+
+var assert = require('assert');
+
+if (!global.is_checking) {
+
+    assert(myMax(3, 3) == 3, "Circle");
+    assert(myMax(0, 1) == 1, "Square");
+    assert(myMax(3, 2) == 3, "Rectangle");
+    console.log("All set? Click \"Check\" to review your code and earn rewards!");
+}
